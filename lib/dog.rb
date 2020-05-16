@@ -7,12 +7,12 @@ class Dog
     @name
   end
 
-  def breed=(dogs_breed)
-    @this_breed = dogs_breed
+  def initialize=(breed)
+    @breed = breed
   end
 
   def breed
-    @this_breed
+    @breed
   end
 
 end
